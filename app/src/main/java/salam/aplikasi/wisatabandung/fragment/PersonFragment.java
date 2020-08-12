@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import salam.aplikasi.wisatabandung.R;
 
 public class PersonFragment extends Fragment {
-
+//    NIM :10117280 NAMA : Richie Sambora
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class PersonFragment extends Fragment {
         View vi = inflater.inflate(R.layout.fragment_person, container, false);
 
         ImageView img = vi.findViewById(R.id.imgAvatar);
-        img.setImageResource(R.drawable.profil);
+        img.setImageResource(R.drawable.rchback);
 
 
         return  vi;

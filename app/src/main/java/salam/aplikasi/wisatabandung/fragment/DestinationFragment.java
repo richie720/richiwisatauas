@@ -23,7 +23,7 @@ import salam.aplikasi.wisatabandung.adapter.DestinationAdapter;
 import salam.aplikasi.wisatabandung.model.Destination;
 
 public class DestinationFragment extends Fragment {
-
+//    NIM :10117280 NAMA : Richie Sambora
     ArrayList<Destination> Contacts;
     private RecyclerView recyclerView;
     private DestinationAdapter destinationAdapter;

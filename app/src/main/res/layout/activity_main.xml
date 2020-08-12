@@ -9,14 +9,14 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
-        android:background="?android:attr/windowBackground"
-        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        app:itemIconTint="@color/ic_launcher_background"
+        app:itemTextColor="@color/colorAccent"
         app:labelVisibilityMode="labeled"
-        app:itemIconTint="@color/bnv_tab_item_foreground"
-        app:itemTextColor="@color/bnv_tab_item_foreground"
         app:menu="@menu/navigation" />
 
     <FrameLayout

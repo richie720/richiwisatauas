@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import salam.aplikasi.wisatabandung.R;
 
 public class AboutFragment extends Fragment {
-
+//    NIM :10117280 NAMA : Richie Sambora
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

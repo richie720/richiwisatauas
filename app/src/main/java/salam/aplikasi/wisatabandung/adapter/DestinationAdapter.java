@@ -19,7 +19,7 @@ import java.util.List;
 import salam.aplikasi.wisatabandung.R;
 import salam.aplikasi.wisatabandung.activity.DestinationDetailActivity;
 import salam.aplikasi.wisatabandung.model.Destination;
-
+//NIM :10117280 NAMA : Richie Sambora
 public class DestinationAdapter extends RecyclerView.Adapter<DestinationAdapter.ViewHolder> {
     private Context context;
     private List<Destination> destinationList;
